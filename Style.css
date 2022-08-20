@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    
+}
+
+body{
+    background: url(/Data/background\ jour.png) center/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* -------------------------------Banniere--------------------------------------------- */
+
+.banniere{
+    background-color: lightblue;
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+
+}
+
+h1{
+    position: relative;
+    font-family: cursive;
+    font-size: 3rem;
+    padding-left: 39%;
+    padding-top: 0px;
+    color: darkcyan;
+}
+
+button{
+    height: 40px;
+    width: 180px;
+    border-radius: 15%;
+    font-size: 2rem;
+    border-color: turquoise;
+    background-color: turquoise;
+}
+
+button :hover{
+    background-color: blue;
+}
+
+.boutton{
+    position: absolute;
+    top: 19vh;    
+}
+
+.recherche{
+    height: 30px;
+    width: 600px;
+    border-color: turquoise;
+}
+::placeholder{
+    font-size: 1.4rem;
+}
+
+.barre{
+    position: relative;
+    padding-left: 25%;
+    top: 10px;
+}
+
+.login{
+    position: absolute;
+    font-size: 2rem;
+    top: 19.5vh;
+    right: 10px;
+
+}
+
+#icon1{
+    height: 130px;
+    width: 200px;
+}
+
+.livre1{
+    position: absolute;
+    top: 10px;
+    left: 0;
+
+}
+
+#icon2{
+    height: 230px;
+    width: 300px;
+}
+
+.livre2{
+    position: absolute;
+    top: -45px;
+    right: 0;
+
+}
